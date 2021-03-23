@@ -27,7 +27,7 @@ app = Flask(__name__, template_folder='templates')
 # def hello_world():
 #     return "Hello World!!"
 
-model = keras.models.load_model('model/clasificador_cnn2.h5')
+model = keras.models.load_model('clasificador_cnn2.h5')
 
 @app.route('/',methods=['GET', 'POST'])
 def main():
