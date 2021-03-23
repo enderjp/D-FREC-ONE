@@ -37,7 +37,7 @@ opencv-python == 4.5.1.48
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
 # C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
-opencv-python-aarch64 == 3.3.0.1
+#opencv-python-aarch64 == 3.3.0.1
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
 # C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
