@@ -53,7 +53,7 @@ opencv-python-inference-engine == 2021.3.3
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 10
 # C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 9
-pandas == 1.2.1
+#pandas == 1.2.1
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 20,21
 # C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 19,20
