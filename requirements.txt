@@ -3,58 +3,11 @@
 # C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 8
 Flask == 1.1.2
 
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 13
-Pillow == 8.1.0
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 12
+# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 9
 Werkzeug == 1.0.1
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\dlib_align.py: 32
 dlib == 19.21.1
 
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 13
-matplotlib == 3.3.4
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 9
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 10
-numpy == 1.19.2
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
-opencv-contrib-python == 4.5.1.48
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
-opencv-contrib-python-headless == 4.5.1.48
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
-opencv-openvino-contrib-python == 4.1.1.26
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
-opencv-python == 4.5.1.48
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
-opencv-python-aarch64 == 3.3.0.1
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
-opencv-python-headless == 4.5.1.48
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
-opencv-python-inference-engine == 2021.3.3
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
-opencvz-contrib-python == 4.1.1.26
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 10
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 9
-pandas == 1.2.1
-
-# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 20,21
-# C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 19,20
+# C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 13
 tensorflow == 2.3.0

@@ -6,17 +6,15 @@ Created on Sat Mar 20 23:33:53 2021
 """
 
 
-import pandas as pd
 import numpy as np
 import cv2
 
-import matplotlib.pyplot as plt
 import dlib_align
 import sys
-from time import time
 
 
-from tensorflow import keras
+
+
 from tensorflow.keras import backend as K 
 # Re neuronal 
 
@@ -50,7 +48,7 @@ def cnn(file_name,model):
         K.clear_session()
         #images.append(img)
         #tiempo_ejecucion = tiempo_final - tiempo_inicial
-       # print('Tiempo de ejecuci贸n', tiempo_ejecucion)
+       # print('Tiempo de ejecuci髇', tiempo_ejecucion)
     
     
     
@@ -65,10 +63,10 @@ def cnn(file_name,model):
         
     
     
-    # Decodificaci贸n de las etiquetas
+    # Decodificaci髇 de las etiquetas
     for i in  range(len(results)):
        
-        # g茅nero
+        # g閚ero
         if np.argmax(results[i][0]) == 0:
             results[i][0]=str('M')
         else:
@@ -101,13 +99,13 @@ def cnn(file_name,model):
         
     
     
-    # Caracter铆sticas finales
+    # Caracter韘ticas finales
     
     print("Rostros encontrados :", len(rects))
     for i in range(len(results)):
         
             print("Resultados del rostro %i :" % i) 
-            print("G茅nero: ",results[i][0])
+            print("G閚ero: ",results[i][0])
             print("Raza: ", results[i][1])
             print("Edad: ", results[i][2])
            
@@ -128,7 +126,7 @@ def cnn(file_name,model):
        
     
     
-    # Mostrar detecci贸n y clasificaci贸n en la imagen original
+    # Mostrar detecci髇 y clasificaci髇 en la imagen original
     
     font = cv2.FONT_HERSHEY_SIMPLEX 
     
