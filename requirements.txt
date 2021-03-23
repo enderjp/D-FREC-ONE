@@ -29,7 +29,7 @@ opencv-contrib-python-headless == 4.5.1.48
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
 # C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
-opencv-openvino-contrib-python == 4.1.1.26
+#opencv-openvino-contrib-python == 4.1.1.26
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
 # C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
