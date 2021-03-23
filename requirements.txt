@@ -17,7 +17,7 @@ matplotlib == 3.3.4
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 9
 # C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 10
-numpy == 1.19.2
+numpy == 1.19.0
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 15
 # C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 11
