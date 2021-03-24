@@ -10,10 +10,10 @@ Pillow == 8.1.0
 Werkzeug == 1.0.1
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\dlib_align.py: 32
-dlib == 19.21.1
+#dlib == 19.21.1
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 13
-matplotlib == 3.3.4
+#matplotlib == 3.3.4
 
 # C:\Users\Ender\Documents\GitHub\Jarvis\app.py: 9
 # C:\Users\Ender\Documents\GitHub\Jarvis\clasificar.py: 10

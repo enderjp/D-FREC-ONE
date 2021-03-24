@@ -9,7 +9,7 @@ Created on Sat Mar 20 23:33:53 2021
 import numpy as np
 import cv2
 
-import dlib_align
+#import dlib_align
 import sys
 
 
@@ -27,28 +27,28 @@ def cnn(file_name,model):
         print("Error al leer imagen")
         sys.exit()
     imagen=img
-    rostros,rects= dlib_align.dlib_alignment(img, 96, 96)
+    #rostros,rects= dlib_align.dlib_alignment(img, 96, 96)
     
-    results=[]
-    for img in rostros:
+#    results=[]
+  #  for img in rostros:
     
-        img = np.array(img)
-        img= cv2.resize(img,(96,96))
-        img=img.astype("uint8")# / 255.0 
-        img = np.reshape(img,[1,96,96,3])
-        #tiempo_inicial=time()
-        y_pred=model.predict(img)
-        #tiempo_final=time()
-        #y_class=np.argmax(y_pred[2],axis=1)
-        results.append(y_pred)
-        
+    img = np.array(img)
+    img= cv2.resize(img,(96,96))
+    img=img.astype("uint8")# / 255.0 
+    img = np.reshape(img,[1,96,96,3])
+    #tiempo_inicial=time()
+    y_pred=model.predict(img)
+    #tiempo_final=time()
+    #y_class=np.argmax(y_pred[2],axis=1)
+   #results.append(y_pred)
+    results=y_pred
 
 # Do some code, e.g. train and save model
 
-        K.clear_session()
+    K.clear_session()
         #images.append(img)
         #tiempo_ejecucion = tiempo_final - tiempo_inicial
-       # print('Tiempo de ejecuci髇', tiempo_ejecucion)
+       # print('Tiempo de ejecuci贸n', tiempo_ejecucion)
     
     
     
@@ -63,10 +63,10 @@ def cnn(file_name,model):
         
     
     
-    # Decodificaci髇 de las etiquetas
+    # Decodificaci贸n de las etiquetas
     for i in  range(len(results)):
        
-        # g閚ero
+        # g茅nero
         if np.argmax(results[i][0]) == 0:
             results[i][0]=str('M')
         else:
@@ -98,14 +98,14 @@ def cnn(file_name,model):
             results[i][2]=str('66+')
         
     
-    
-    # Caracter韘ticas finales
+    rects=results    
+    # Caracter铆sticas finales
     
     print("Rostros encontrados :", len(rects))
     for i in range(len(results)):
         
             print("Resultados del rostro %i :" % i) 
-            print("G閚ero: ",results[i][0])
+            print("G茅nero: ",results[i][0])
             print("Raza: ", results[i][1])
             print("Edad: ", results[i][2])
            
@@ -126,7 +126,7 @@ def cnn(file_name,model):
        
     
     
-    # Mostrar detecci髇 y clasificaci髇 en la imagen original
+    # Mostrar detecci贸n y clasificaci贸n en la imagen original
     
     font = cv2.FONT_HERSHEY_SIMPLEX 
     

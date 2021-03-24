@@ -6,19 +6,14 @@ Created on Tue Mar 16 20:40:21 2021
 """
 from flask import Flask
 from flask import request, render_template
-import numpy as np
-import pandas as pd
-from copy import deepcopy
 from werkzeug.utils import secure_filename
-from PIL import Image
-import dlib_align
-import cv2
-import clasificar
+#from PIL import Image
+#import dlib_align
+
 from clasificar import cnn
 import shutil
 # Importar clasificador - CNN
 from tensorflow import keras
-from tensorflow.keras import layers
 import os
 
 app = Flask(__name__, template_folder='templates')
@@ -47,7 +42,7 @@ def main():
         file_name = 'static/images/'+str(secure_filename(f.filename))
         file_name2='images/'+str(secure_filename(f.filename))
         f.save(file_name)
-        # realizar clasificación con la red neuronal
+        # realizar clasificaciÃ³n con la red neuronal
         cnn(file_name,model)
         
         
